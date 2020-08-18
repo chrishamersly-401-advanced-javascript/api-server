@@ -1,9 +1,36 @@
 {
   "categories": [
     {
-      "id": "id1",
-      "name": "attempting to change"
+      "type": "outdoor"
+    },
+    {
+      "type": "indoor"
+    },
+    {
+      "type": "undecided"
     }
   ],
-  "products": []
+  "products": [
+    {
+      "id": 3,
+      "category": "undecided",
+      "name": "updated in swagger",
+      "display name": "nike poobah",
+      "description": "made for riding in style"
+    },
+    {
+      "id": 4,
+      "category": "outdoor",
+      "name": "van",
+      "display name": "Eurovan",
+      "description": "adventure mobile ready for long weekends"
+    },
+    {
+      "id": 5,
+      "category": "we made this in swagger",
+      "name": "updated in swagger for real",
+      "display name": "nike poobah in swagger",
+      "description": "made for riding in style in swagger"
+    }
+  ]
 }
