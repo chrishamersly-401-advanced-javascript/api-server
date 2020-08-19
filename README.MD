@@ -1,4 +1,4 @@
-Author: Chris Hamersly  Version: 1.0.4
+Author: Chris Hamersly  Version: 1.0.3
 
 ## Overview
 We are building a multi day online store with full CRUD application. 
