@@ -18,6 +18,10 @@ Clone app into local machine and run the command json-server in order to make su
 
      https://app.swaggerhub.com/apis/chrishamersly/ProductsV2/0.1#trial
 
+  Tuesday - 08.18.202
+    - Setting up express server, working on middleware application, and developing CRUD. 
+
+
 
 
 
