@@ -11,7 +11,7 @@
 const requestTime = require('./timestamp.js');
 
 function loggerMiddleWare (request, reponse, next) {
-  console.log$(request.path, 'method', requestTime);
+  // console.log$(request.path, 'method', requestTime);
 }
  
 loggerMiddleWare();
