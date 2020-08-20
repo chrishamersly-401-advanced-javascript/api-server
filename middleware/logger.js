@@ -8,13 +8,14 @@
 
  */
 
-const requestTime = require('./timestamp.js');
+// const requestTime = require('./timestamp.js');
 
-function loggerMiddleWare (request, reponse, next) {
-  // console.log$(request.path, 'method', requestTime);
-}
+module.exports = (req, res, next) => {
+  console.log('__REQUEST__', req.method, req.path);
+  next();
+};
  
-loggerMiddleWare();
 
-module.exports = loggerMiddleWare();
+
+
 

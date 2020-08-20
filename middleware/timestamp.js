@@ -12,7 +12,7 @@ let date = new Date();
 console.log(`the current date is ${date}`);
 
 function requestTime (response, request, next) {
-  request.requestTime.date;
+  return request.date;
 }
 
 module.exports = requestTime;

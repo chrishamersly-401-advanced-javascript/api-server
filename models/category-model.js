@@ -9,6 +9,4 @@ class Category extends Model {
   }
 }
 
-// Export an INSTANCE of a model
-// This way, when a client requires us, they can just use the CRUD methods.
 module.exports = new Category();
