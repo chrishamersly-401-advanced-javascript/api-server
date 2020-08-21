@@ -1,17 +1,16 @@
 'use strict';
 
 const mongoose = require('mongoose');
-const server = require('./lib/server.js');
+const server = require('./lib/routes/server.js');
 
+const MONGODB_URI = 'mongodb://localhost:27017/products';
 
-//need to change to make my own
-// const MONGODB_URI ='mongo://localhost:27017/products';
+const mongooseOptions = {
+  useNewUrlParser: true,
+  useCreateIndex: true,
+  useUnifiedTopology: true,
+};
 
-// const mongooseOptions = {
-//   useNewUrlParser: true,
-//   useCreateIndex: true,
-//   useUnifiedTopology: true,
-// };
+mongoose.connect(MONGODB_URI, mongooseOptions);
 
-// mongoose.connect(MONGODB_URI, mongooseOptions);
 server.start(3000);
