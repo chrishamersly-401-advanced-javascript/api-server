@@ -1,7 +1,7 @@
 'use strict';
 
 const schema = require('./schema/category-schema.js');
-const DataModel = require('./model');
+const DataModel = require('./model.js');
 
 class Categories extends DataModel { }
 

@@ -17,7 +17,7 @@ class DataModel {
 
   post(record) {
     console.log('in the post function');
-    let newRecord = new this.schema(record);
+    const newRecord = new this.schema(record);
     return newRecord.save();
   }
 
@@ -34,8 +34,9 @@ class DataModel {
   delete(record) {
     //find a record and delete it
     console.log('in the delete function');
-    let newRecord = new this.schema(record);
-    return newRecord.delete();
+    // let newRecord = new this.schema(record);
+    // return newRecord.delete();
+    // return this.schema.findById(id);
   }
   
 }

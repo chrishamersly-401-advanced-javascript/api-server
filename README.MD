@@ -1,4 +1,4 @@
-Author: Chris Hamersly  Version: 1.0.3
+Author: Chris Hamersly  Version: 1.0.5
 
 ## Overview
 We are building a multi day online store with full CRUD application. 
@@ -18,8 +18,19 @@ Clone app into local machine and run the command json-server in order to make su
 
      https://app.swaggerhub.com/apis/chrishamersly/ProductsV2/0.1#trial
 
-  Tuesday - 08.18.202
+  Tuesday - 08.18.2020
     - Setting up express server, working on middleware application, and developing CRUD. 
+  
+
+  Wednesday 08.19.2020
+    - Working on persistent data while using a mongoose database
+
+  Thursday 08.20.2020
+    - Modularizing the database 
+
+  Friday 08.21.2020
+    - Continuing to work on full CRUD application, also working on refactoring to make schema modular. 
+
 
 
 
