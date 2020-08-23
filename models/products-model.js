@@ -3,8 +3,11 @@
 const schema = require('./schema/product-schema.js');
 const DataModel = require('./model');
 
-class Products extends DataModel { }
+class Products extends DataModel { 
+  constructor () {
+    super(schema);
+  }
+}
 
-
-module.exports = new Products(schema);
+module.exports = Products;
 

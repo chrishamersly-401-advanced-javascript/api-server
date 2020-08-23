@@ -3,11 +3,11 @@
 const mongoose = require('mongoose');
 
 const products = mongoose.Schema({
-  name: { type: Number, required: true },
-  category: { type: String, required: true },
-  description: { type: String, required: true},
-  price: { type: Number, required: true },
-  inStock: { type: Number, required: true},
+  name: { type: String },
+  category: { type: String },
+  description: { type: String },
+  price: { type: Number },
+  inStock: { type: Number },
 });
 
 module.exports = mongoose.model('products', products);
